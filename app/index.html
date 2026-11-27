@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Real Deal Friday — Black Friday deals, checked one by one</title>
+<meta name="description" content="14 real Black Friday 2026 deals, each price-checked at its store on 27 Nov 2026, with an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <p class="kicker">Black Friday 2026 · Prices checked <span id="checked-day">27 Nov 2026</span></p>
+      <h1>Real Deal Friday</h1>
+      <p class="tagline">Every deal below was checked at its store today. No inflated “was” prices, no guesses — each card shows the price, the usual price, when it was checked, where it was read, and an honest verdict.</p>
+    </div>
+    <p class="header-badge">14 deals<br><span>4 stores · 9 categories</span></p>
+  </div>
+</header>
+
+<main>
+  <section class="toolbar" aria-label="Find deals">
+    <label>Search <input id="search" type="search" placeholder="Try “airpods”, “OLED”, “vacuum”…"></label>
+    <label>Category
+      <select id="category">
+        <option value="all">All categories</option>
+      </select>
+    </label>
+    <label>Store
+      <select id="store">
+        <option value="all">All stores</option>
+      </select>
+    </label>
+    <label>Min. discount
+      <select id="min-discount">
+        <option value="0">Any discount</option>
+        <option value="25">25% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+      </select>
+    </label>
+    <label>Verdict
+      <select id="verdict">
+        <option value="all">Any verdict</option>
+        <option value="new-low">New lows only</option>
+        <option value="strong">Strong prices</option>
+        <option value="modest">Modest cuts</option>
+        <option value="routine">Routine sales</option>
+      </select>
+    </label>
+    <label>Sort
+      <select id="sort">
+        <option value="best">Best deals first</option>
+        <option value="discount">Biggest % off</option>
+        <option value="saving">Biggest $ saving</option>
+        <option value="price-asc">Lowest price</option>
+        <option value="price-desc">Highest price</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </label>
+  </section>
+
+  <p id="stats-bar" class="stats-bar" aria-live="polite"></p>
+  <p id="result-count" class="result-count"></p>
+
+  <section id="deal-grid" class="deal-grid" aria-label="Deals"></section>
+
+  <section class="compare-section" aria-label="Same product at every store">
+    <h2>Same product, every store</h2>
+    <p class="section-intro">A discount only means something next to the price elsewhere. For the products we could check at more than one store, here is what each store charges — the cheapest in each row is marked.</p>
+    <div id="compare-list" class="compare-list"></div>
+  </section>
+
+  <section class="method" aria-label="How we check">
+    <h2>How a deal earns its verdict</h2>
+    <ol>
+      <li><strong>Read the price at the store</strong> — or in a deals source that names the store — on 27 Nov 2026. The source and its date sit on every card.</li>
+      <li><strong>Check the maths</strong> — the discount on each card is computed from the two prices shown. If they do not add up, the deal does not ship.</li>
+      <li><strong>Ask if it is really a deal</strong> — a new low, a strong price, a modest cut, or a routine sale. A small cut on a product that sold cheaper months ago says so on its card.</li>
+      <li><strong>Compare across stores</strong> — where the same product is cheaper elsewhere, the compare table above says so.</li>
+    </ol>
+    <p class="method-note">Prices move fast in Black Friday week and can sell out. The price on the store page at checkout is the final word — if it has moved, the card’s “checked” date tells you how fresh our reading is.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Real Deal Friday — an independent deal finder. Not affiliated with Amazon, Best Buy, Walmart, Nintendo, or any store named here. Store names and product names belong to their owners; prices are the stores’ own, read on 27 Nov 2026.</p>
+</footer>
+</body>
+</html>
