@@ -1,5 +1,11 @@
 # Real Deal Friday — black-friday-deal-finder-01
 
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/0x697/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/0x697/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+
+Built for the [Black Friday deal finder bounty on make.fun](https://make.fun/bounty/black-friday-deal-finder-01).
+
 A static Black Friday deal finder: 14 real deals, each price-checked at its
 store on 27 Nov 2026, with sale price, usual price, discount, check time,
 source, and an honest verdict (new low / strong price / modest cut /
